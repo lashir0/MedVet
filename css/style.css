@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    font-family: "Jost", sans-serif;
+    background-color: #DDF9FF;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 55px;
+    justify-content: space-between
+}
+
+li p {
+    font-weight: bold;
+    color: #3A2E2E;
+    font-size: 24px;
+}
+
+ol {
+    display: flex;
+    list-style: none;
+    padding: 0; 
+    gap: 50px;
+    justify-content: space-between, center
+    
+}
+
+.dog {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 55px;
+    justify-content: space-between
+}
+
+.dog2 {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 55px;
+    justify-content: center
+}
+
+p {
+    font-size: 24px;
+    color: #6278B4;
+    margin: 0;
+    font-weight: 600;
+}
+.CanadaP {
+    font-size: 24px;
+    color: #6278B4;
+    margin: 0;
+    font-weight: 600;
+}
+h2 {
+    font-size: 48px;
+    color: #3A2E2E;
+    font-weight: 700;
+}
+h1 {
+    background: linear-gradient(to right, #6278B4 351px, transparent 50px) bottom center / 351px 4px no-repeat; 
+    font-size: 48px;
+    color: #6278B4;
+    font-weight: 700;
+
+}
+h3 {
+    background: linear-gradient(to right, #3A2E2E 351px, transparent 50px) top center / 351px 4px no-repeat; 
+    font-size: 32px;
+    color: #3A2E2E;
+    font-weight: 600;
+}
+.our {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+}
+.Our_Services {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+}
+.Our_Specialist {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.opis {
+    font-size: 20px;
+    color: #3A2E2E;
+    font-weight: 500;
+}
+span {
+    color: #3A2E2E;
+    margin: 0;
+}
+
+button {
+    border-radius: 30px;
+    width: 242px;
+    height: 62px;
+    font-weight: 900;
+    font-size: 20px;
+    border: 0;
+    background-color: #6278B4;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.X3 {
+    font-size: 14px;
+    color: #3A2E2E;
+    margin: 0;
+}
+.services {
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    width: 1077px;
+}
+.SpecialLists {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    gap: 100px;
+}
+.TextPColumn {
+    flex-direction: column;
+}
+.our_span {
+    color: #6278B4;
+    margin: 0;
+}
+.our_p {
+    margin: 0;
+    color: #3A2E2E;
+}
+.service {
+    display: flex; 
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+.SpecialList {
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+}
+footer {
+    background-color: #535353;
+}
+footer img {
+    margin-left: 159px;
+}
+.Footer_HR {
+    border-width: 2px 0px 2px 0px;
+    border-style: solid;
+    width: 1120;
+    border-color: #6278B4;    
+    display: flex;
+    align-items: center;
+}
+.H3Contact {
+    margin-left: 159px;
+    color: white;
+    background: none;
+    font-weight: 500;
+    font-size: 24px;
+}
+.FooterP {
+    color: white;
+    background: none;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 25px;
+}    
+.Footer_BlockSmall {
+    display: flex; 
+    align-items: flex-start;
+    flex-direction: row;
+}
+.SmallBlocks {
+    display: flex;
+    margin-right: 159px;
+    justify-content: space-between;
+    flex-direction: row;
+}
